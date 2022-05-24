@@ -24,7 +24,7 @@ const About: NextPage = () => {
       <h6 className="my-3 text-base font-medium">
         I used to do a lot of marketing stuff like Facebook ads, Brand positioning, 
         but I realize like probably most of us that had quarterlife crisis, 
-        I love to build stuff either digitally or phsically. 
+        I love to build stuff digitally. 
         I never been happier in my life since I start coding. 
         Yes, its tiring when facing a problem or a bug,
         but I am already in a level where I know what to search and ask in Google so I can fix it.
