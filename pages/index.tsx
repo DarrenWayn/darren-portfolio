@@ -22,13 +22,7 @@ const About: NextPage = () => {
       </Head>
 
       <h6 className="my-3 text-base font-medium">
-        I used to do a lot of marketing stuff like Facebook ads, Brand positioning, 
-        but I realize like probably most of us that had quarterlife crisis, 
-        I love to build stuff digitally. 
-        I never been happier in my life since I start coding. 
-        Yes, its tiring when facing a problem or a bug,
-        but I am already in a level where I know what to search and ask in Google so I can fix it.
-        Shall we talk and build something?
+        Hi, My name is Darren and I’m a 23 years old Front-End Developer who loves to build stuff. My experience are range from using HTML & CSS to React/NextJS libraries like Material UI, Ant Design & TailwindCSS. I also use API to fetch data into the site If you choose to work with me there will be a constant line of communication. I believe that’s very important to deliver and understand the project Check out my recent portfolio: https://darren-portfolio.vercel.app/
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
