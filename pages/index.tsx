@@ -27,7 +27,7 @@ const About: NextPage = () => {
         I also use API to fetch data into the site If you choose to work with me there will be a constant line of communication. 
         I believe that’s very important to deliver and and understand the project better.
         <span />
-        Let's talk! we will know if we're a good fit
+        Let's talk! we'll better know if we're a good fit
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
