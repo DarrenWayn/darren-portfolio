@@ -23,10 +23,10 @@ const About: NextPage = () => {
 
       <h6 className="my-3 text-base font-medium">
         Hi, My name is Darren and I’m a 23 years old Front-End Developer who loves to build stuff. My experience are range from using HTML & CSS to React/NextJS libraries like Material UI, Ant Design & TailwindCSS. 
-        <span></span>
+        <br />
         I also use API to fetch data into the site If you choose to work with me there will be a constant line of communication. 
         I believe that’s very important to deliver and and understand the project better.
-        <span></span>
+        <br />
         Let's talk! we'll better know if we're a good fit.
       </h6>
       <div
