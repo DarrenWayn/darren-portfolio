@@ -120,7 +120,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Axios", "Material UI", "Google Map & Weather API"],
   },
   {
-    id: 4,
+    id: 5,
     name: "Simple Netflix Clone",
     image_path: "/images/netflix-clone.png",
     deployed_url: "https://dw-netflix-clone.netlify.app",
