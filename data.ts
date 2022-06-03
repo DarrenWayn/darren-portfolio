@@ -119,4 +119,15 @@ export const projects: IProject[] = [
       "This site is a netflix clone build on top firebase to access authentication login and payment functionality using stripe",
     key_techs: ["React", "Axios", "Pure CSS", "The Movie DB API", "FireBase Auth", "Stripe"]
   },
+  {
+    id: 5,
+    name: "Travel Advisor Rapid API",
+    image_path: "/images/traveladvisor-api.png",
+    deployed_url: "https://dw-reacttravelapi.netlify.app",
+    github_url: "https://github.com/DarrenWayn/travel-advisor-api",
+    category: ["react.js"],
+    description:
+      "This site have a Card that cover Restaurants, Hotel, and Attraction that used to look for the best of it in each countries and cities using Travel Advisor Rapid Api",
+    key_techs: ["React", "Axios", "Material UI", "Google Map & Weather API"],
+  },
 ];
