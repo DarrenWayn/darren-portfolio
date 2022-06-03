@@ -79,7 +79,7 @@ export const projects: IProject[] = [
     deployed_url: "https://dw-realestate-api.vercel.app/",
     github_url: "https://github.com/DarrenWayn/realestate-api",
     category: ["next.js"],
-    key_techs: ["Next.js", "Chakra UI", "NProgress"],
+    key_techs: ["Next.js", "Chakra UI", "NProgress", "Rapid API"],
   },
   {
     id: 2,
@@ -90,7 +90,7 @@ export const projects: IProject[] = [
     category: ["react.js"],
     description:
       "This site is build using CoinRanking Api to create Exchanges page and coins, this site also using Chart Js to display Chart Prices History of each coins",
-    key_techs: ["React", "Antd UI", "Rapid API", "Redux"],
+    key_techs: ["React", "Antd Design", "Rapid API", "Redux", "Chart Js", "Millify"],
   },
   {
     id: 3,
@@ -102,8 +102,8 @@ export const projects: IProject[] = [
     description:
       "A Google Clone Website that have the exact pages such search, news, images, and videos",
     key_techs: [
-      "Next.js",
-      "Redux",
+      "React",
+      "Axios",
       "Google Search API",
       "TailwindCSS",
     ],
@@ -117,6 +117,17 @@ export const projects: IProject[] = [
     category: ["react.js"],
     description:
       "This site have a Card that cover Restaurants, Hotel, and Attraction that used to look for the best of it in each countries and cities using Travel Advisor Rapid Api",
-    key_techs: ["React", "Axios", "Material UI", "Rapid API"],
+    key_techs: ["React", "Axios", "Material UI", "Google Map & Weather API"],
+  },
+  {
+    id: 4,
+    name: "Simple Netflix Clone",
+    image_path: "/images/netflix-clone.png",
+    deployed_url: "https://dw-netflix-clone.netlify.app",
+    github_url: "https://github.com/DarrenWayn/netflix-clone",
+    category: ["react.js"],
+    description:
+      "This site is a netflix clone build on top firebase to access authentication login and payment functionality using stripe",
+    key_techs: ["React", "Axios", "Pure CSS", "The Movie DB API", "FireBase Auth", "Stripe"]
   },
 ];
