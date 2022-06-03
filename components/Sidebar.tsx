@@ -55,7 +55,7 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span className="text-xs">Tangerang, Banten, Indonesia </span>
+          <GoLocation className="mr-2" height="0.7em" /> <span className="text-xs">Tangerang, Banten, Indonesia </span>
         </div>
         <p className="my-2 text-xs"> darrenwayn98@gmail.com </p>
         <p className="my-2 text-xs"> +6281994492725 </p>
