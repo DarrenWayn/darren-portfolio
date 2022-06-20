@@ -130,4 +130,15 @@ export const projects: IProject[] = [
       "This site have a Card that cover Restaurants, Hotel, and Attraction that used to look for the best of it in each countries and cities using Travel Advisor Rapid Api",
     key_techs: ["React", "Axios", "Material UI", "Google Map & Weather API"],
   },
+  {
+    id: 6,
+    name: "TodoList",
+    image_path: "/images/todos.png",
+    deployed_url: "https://dw-todolist-react.netlify.app/",
+    github_url: "https://github.com/DarrenWayn/todolist-react",
+    category: ["react.js"],
+    description:
+      "This site is build using React that have added, edit, and delete feature",
+    key_techs: ["React", "Sass", "Html5"],
+  },
 ];
