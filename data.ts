@@ -141,4 +141,15 @@ export const projects: IProject[] = [
       "This site is build using React that have added, edit, and delete feature",
     key_techs: ["React", "Sass", "Html5"],
   },
+  {
+    id: 7,
+    name: "TodoList",
+    image_path: "/images/simple-input-form.png",
+    deployed_url: "https://dw-inputform-react.netlify.app/",
+    github_url: "https://github.com/DarrenWayn/inputform-react",
+    category: ["react.js"],
+    description:
+      "This site is a simple input form that use mostly react hooks",
+    key_techs: ["React", "Sass", "Html5"],
+  },
 ];
