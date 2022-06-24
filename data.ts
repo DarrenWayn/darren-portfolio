@@ -143,7 +143,7 @@ export const projects: IProject[] = [
   },
   {
     id: 7,
-    name: "TodoList",
+    name: "Input Form",
     image_path: "/images/simple-input-form.png",
     deployed_url: "https://dw-inputform-react.netlify.app/",
     github_url: "https://github.com/DarrenWayn/inputform-react",
