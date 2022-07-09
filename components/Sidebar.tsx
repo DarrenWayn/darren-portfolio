@@ -31,7 +31,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="https://docdro.id/GGQ00VB"
+        href="https://docdro.id/ERyiTb6"
         download="Darren Wayn's Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
@@ -57,7 +57,7 @@ const Sidebar = () => {
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" height="0.7em" /> <span className="text-xs">Tangerang, Banten, Indonesia </span>
         </div>
-        <p className="my-2 text-xs"> darrenwayn98@gmail.com </p>
+        <p className="my-2 text-xs"> darrenwayn.consulting@gmail.com </p>
         <p className="my-2 text-xs"> +6281994492725 </p>
       </div>
 
@@ -65,7 +65,7 @@ const Sidebar = () => {
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:darrenwayn98@gmail.com")}
+        onClick={() => window.open("mailto:darrenwayn.consulting@gmail.com")}
       >
         Email me
       </button>
