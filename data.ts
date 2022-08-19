@@ -173,7 +173,7 @@ export const projects: IProject[] = [
     id: 9,
     name: "Input Form",
     image_path: "/images/guessmynumber.png",
-    deployed_url: "https://dw-pig-game.netlify.app/",
+    deployed_url: "https://dw-guessmynumber.netlify.app/",
     github_url: "https://github.com/DarrenWayn/js_fundemental",
     category: ["javascript"],
     description:
