@@ -18,8 +18,7 @@ export const services: Service[] = [
     id: 2,
     Icon: AiOutlineApi,
     title: "API Development",
-    about:
-      "I can create API using <b>scrapper Api</b>  & <b>Node API</b> ",
+    about: "I can create API using <b>scrapper Api</b>  & <b>Node API</b> ",
   },
 ];
 
@@ -38,7 +37,7 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "Typescript",
     level: "45",
-  }, 
+  },
   {
     Icon: BsCircleFill,
     name: "React Js",
@@ -48,12 +47,12 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "Next Js",
     level: "65",
-  }, 
+  },
   {
     Icon: BsCircleFill,
     name: "Brownie",
     level: "60",
-  }, 
+  },
 ];
 
 export const tools: Skill[] = [
@@ -70,7 +69,7 @@ export const tools: Skill[] = [
 ];
 
 export const projects: IProject[] = [
-  { 
+  {
     id: 1,
     name: "Real Estate API",
     description:
@@ -90,7 +89,14 @@ export const projects: IProject[] = [
     category: ["react.js"],
     description:
       "This site is build using CoinRanking Api to create Exchanges page and coins, this site also using Chart Js to display Chart Prices History of each coins",
-    key_techs: ["React", "Antd Design", "Rapid API", "Redux", "Chart Js", "Millify"],
+    key_techs: [
+      "React",
+      "Antd Design",
+      "Rapid API",
+      "Redux",
+      "Chart Js",
+      "Millify",
+    ],
   },
   {
     id: 3,
@@ -101,12 +107,7 @@ export const projects: IProject[] = [
     category: ["react.js"],
     description:
       "A Google Clone Website that have the exact pages such search, news, images, and videos",
-    key_techs: [
-      "React",
-      "Axios",
-      "Google Search API",
-      "TailwindCSS",
-    ],
+    key_techs: ["React", "Axios", "Google Search API", "TailwindCSS"],
   },
   {
     id: 4,
@@ -117,7 +118,14 @@ export const projects: IProject[] = [
     category: ["react.js"],
     description:
       "This site is a netflix clone build on top firebase to access authentication login and payment functionality using stripe",
-    key_techs: ["React", "Axios", "Pure CSS", "The Movie DB API", "FireBase Auth", "Stripe"]
+    key_techs: [
+      "React",
+      "Axios",
+      "Pure CSS",
+      "The Movie DB API",
+      "FireBase Auth",
+      "Stripe",
+    ],
   },
   {
     id: 5,
@@ -148,8 +156,28 @@ export const projects: IProject[] = [
     deployed_url: "https://dw-inputform-react.netlify.app/",
     github_url: "https://github.com/DarrenWayn/inputform-react",
     category: ["react.js"],
-    description:
-      "This site is a simple input form that use mostly react hooks",
+    description: "This site is a simple input form that use mostly react hooks",
     key_techs: ["React", "Sass", "Html5"],
+  },
+  {
+    id: 8,
+    name: "Pig Game",
+    image_path: "/images/pig-game.png",
+    deployed_url: "https://dw-pig-game.netlify.app/",
+    github_url: "https://github.com/DarrenWayn/js_fundemental",
+    category: ["javascript"],
+    description: "this have random dice feature use forEach method",
+    key_techs: ["Javascript", "CSS", "Html5"],
+  },
+  {
+    id: 9,
+    name: "Input Form",
+    image_path: "/images/guessmynumber.png",
+    deployed_url: "https://dw-pig-game.netlify.app/",
+    github_url: "https://github.com/DarrenWayn/js_fundemental",
+    category: ["javascript"],
+    description:
+      "Guess your number and win it! it throws a random number and you need to guess it!",
+    key_techs: ["Javascript", "CSS", "Html5"],
   },
 ];

@@ -13,8 +13,8 @@ export const NavItem: FunctionComponent<{
     <li className={className} onClick={() => handlerFilterCategory(value)}>
       {value}
     </li>
-  )
-}
+  );
+};
 
 const ProjectsNavbar: FunctionComponent<{
   handlerFilterCategory: Function;
@@ -25,11 +25,12 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="all" {...props} />
       <NavItem value="react.js" {...props} />
       <NavItem value="next.js" {...props} />
+      <NavItem value="javascript" {...props} />
       {/* <NavItem value="mongoDB" {...props} />
       <NavItem value="node.js" {...props} />
       <NavItem value="express.js" {...props} /> */}
     </div>
-  )
-}
+  );
+};
 
 export default ProjectsNavbar;
