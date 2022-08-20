@@ -127,19 +127,19 @@ export const projects: IProject[] = [
       "Stripe",
     ],
   },
+  // {
+  //   id: 5,
+  //   name: "Travel Advisor Rapid API",
+  //   image_path: "/images/traveladvisor-api.png",
+  //   deployed_url: "https://dw-react-travel-api.netlify.app",
+  //   github_url: "https://github.com/DarrenWayn/travel-advisor-api",
+  //   category: ["react.js"],
+  //   description:
+  //     "This site have a Card that cover Restaurants, Hotel, and Attraction that used to look for the best of it in each countries and cities using Travel Advisor Rapid Api",
+  //   key_techs: ["React", "Axios", "Material UI", "Google Map & Weather API"],
+  // },
   {
     id: 5,
-    name: "Travel Advisor Rapid API",
-    image_path: "/images/traveladvisor-api.png",
-    deployed_url: "https://dw-react-travel-api.netlify.app",
-    github_url: "https://github.com/DarrenWayn/travel-advisor-api",
-    category: ["react.js"],
-    description:
-      "This site have a Card that cover Restaurants, Hotel, and Attraction that used to look for the best of it in each countries and cities using Travel Advisor Rapid Api",
-    key_techs: ["React", "Axios", "Material UI", "Google Map & Weather API"],
-  },
-  {
-    id: 6,
     name: "TodoList",
     image_path: "/images/todos.png",
     deployed_url: "https://dw-todolist-react.netlify.app/",
@@ -150,7 +150,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Sass", "Html5"],
   },
   {
-    id: 7,
+    id: 6,
     name: "Input Form",
     image_path: "/images/simple-input-form.png",
     deployed_url: "https://dw-inputform-react.netlify.app/",
@@ -160,7 +160,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Sass", "Html5"],
   },
   {
-    id: 8,
+    id: 7,
     name: "Pig Game",
     image_path: "/images/pig-game.png",
     deployed_url: "https://dw-pig-game.netlify.app/",
@@ -170,7 +170,7 @@ export const projects: IProject[] = [
     key_techs: ["Javascript", "CSS", "Html5"],
   },
   {
-    id: 9,
+    id: 8,
     name: "Guess My Number",
     image_path: "/images/guess-my-number.png",
     deployed_url: "https://dw-guessmynumber.netlify.app/",
