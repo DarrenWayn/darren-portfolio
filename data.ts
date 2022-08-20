@@ -131,7 +131,7 @@ export const projects: IProject[] = [
     id: 5,
     name: "Travel Advisor Rapid API",
     image_path: "/images/traveladvisor-api.png",
-    deployed_url: "https://dw-reacttravelapi.netlify.app",
+    deployed_url: "https://dw-react-travel-api.netlify.app",
     github_url: "https://github.com/DarrenWayn/travel-advisor-api",
     category: ["react.js"],
     description:
@@ -172,7 +172,7 @@ export const projects: IProject[] = [
   {
     id: 9,
     name: "Guess My Number",
-    image_path: "/images/guessmynumber.png",
+    image_path: "/images/guess-my-number.png",
     deployed_url: "https://dw-guessmynumber.netlify.app/",
     github_url: "https://github.com/DarrenWayn/js_fundemental",
     category: ["javascript"],
