@@ -111,7 +111,7 @@ export const projects: IProject[] = [
   },
   {
     id: 4,
-    name: "Simple Netflix Clone",
+    name: "Netflix Clone",
     image_path: "/images/netflix-clone.png",
     deployed_url: "https://dw-netflix-clone.netlify.app",
     github_url: "https://github.com/DarrenWayn/netflix-clone",

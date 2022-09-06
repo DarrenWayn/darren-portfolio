@@ -3,7 +3,7 @@ import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import icon from '../public/images/darrensimg.png'
+import icon from "../public/images/darrensimg.png";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -31,7 +31,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="https://drive.google.com/file/d/1ZVnkCQeN1NDMj_hST7pKCdqP2HQBdFPn/view?usp=sharing"
+        href="https://drive.google.com/file/d/1i8uP091QgzQT_ZvbqHfxfNVXAL5wDCGa/view?usp=sharing"
         download="Darren Wayn's Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
@@ -41,11 +41,17 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green w-20">
-        <a href="https://www.linkedin.com/in/darrenwayn/" >
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" arial-label="Linkedin" />
+        <a href="https://www.linkedin.com/in/darrenwayn/">
+          <AiFillLinkedin
+            className="w-8 h-8 cursor-pointer"
+            arial-label="Linkedin"
+          />
         </a>
         <a href="https://github.com/DarrenWayn">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" arial-label="Github" />
+          <AiFillGithub
+            className="w-8 h-8 cursor-pointer"
+            arial-label="Github"
+          />
         </a>
       </div>
 
@@ -55,7 +61,8 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" height="0.7em" /> <span className="text-xs">Tangerang, Banten, Indonesia </span>
+          <GoLocation className="mr-2" height="0.7em" />{" "}
+          <span className="text-xs">Tangerang, Banten, Indonesia </span>
         </div>
         <p className="my-2 text-xs"> dwayn.dev@gmail.com </p>
         <p className="my-2 text-xs"> +6281994492725 </p>
