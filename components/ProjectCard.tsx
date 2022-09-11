@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { IProject } from "../types";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 import Image from "next/image";
 
@@ -24,6 +25,17 @@ const ProjectCard: FunctionComponent<{
     visible: { opacity: 1 },
     hidden: { opacity: 0 },
   };
+  
+  useEffect(() => {
+    const keyDownHandler = (e) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        setShowDetail(false)
+      }
+    };
+
+    document.addEventListener("keydown", keyDownHandler);
+  }, []);
 
   return (
     <>
