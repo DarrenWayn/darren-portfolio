@@ -6,7 +6,6 @@ import { ThemeProvider } from "next-themes";
 import Router from "next/router";
 import NProgress from "nprogress";
 import Head from "next/head";
-import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   NProgress.configure({ showSpinner: false });
@@ -18,17 +17,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   Router.events.on("routeChangeComplete", () => {
     NProgress.done();
   });
-
-  useEffect(() => {
-    const keyDownHandler = (e) => {
-      if (e.key === "Escape") {
-        e.preventDefault();
-        closeModal();
-      }
-    };
-
-    document.addEventListener("keydown", keyDownHandler);
-  }, []);
 
   return (
     <>
