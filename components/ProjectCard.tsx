@@ -27,7 +27,7 @@ const ProjectCard: FunctionComponent<{
   };
   
   useEffect(() => {
-    const keyDownHandler = (e) => {
+    const keyDownHandler = (e: any) => {
       if (e.key === "Escape") {
         e.preventDefault();
         setShowDetail(false)
