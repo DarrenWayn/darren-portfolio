@@ -77,7 +77,7 @@ export const projects: IProject[] = [
     image_path: "/images/realestate-api.png",
     deployed_url: "https://dw-realestate-api.vercel.app/",
     github_url: "https://github.com/DarrenWayn/realestate-api",
-    category: ["next.js"],
+    category: ["next.js", "coursework"],
     key_techs: ["Next.js", "Chakra UI", "NProgress", "Rapid API"],
   },
   {
