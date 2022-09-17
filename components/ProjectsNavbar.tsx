@@ -26,6 +26,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="react.js" {...props} />
       <NavItem value="next.js" {...props} />
       <NavItem value="javascript" {...props} />
+      <NavItem value="coursework" {...props} />
       {/* <NavItem value="mongoDB" {...props} />
       <NavItem value="node.js" {...props} />
       <NavItem value="express.js" {...props} /> */}
