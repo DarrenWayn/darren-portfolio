@@ -31,7 +31,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="https://drive.google.com/file/d/1i8uP091QgzQT_ZvbqHfxfNVXAL5wDCGa/view?usp=sharing"
+        href="https://drive.google.com/file/d/1w8TvbMTP7pb-9Er5DLl2AIR8jo6Iiyqk/view?usp=sharing"
         download="Darren Wayn's Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
