@@ -1,7 +1,5 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
+import { AiOutlineApi } from "react-icons/ai";
 import { IProject, Service, Skill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
@@ -100,14 +98,14 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
-    name: "Google Clone",
-    image_path: "/images/googleclone.png",
-    deployed_url: "https://dw-googlecloneapi.netlify.app",
-    github_url: "https://github.com/DarrenWayn/goggl",
-    category: ["react.js"],
+    name: "Company Profile",
+    image_path: "/images/company-profile.png",
+    deployed_url: "https://dw-company-profile.vercel.app/",
+    github_url: "https://github.com/DarrenWayn/netflix-clone",
+    category: ["next.js"],
     description:
-      "A Google Clone Website that have the exact pages such search, news, images, and videos",
-    key_techs: ["React", "Axios", "Google Search API", "TailwindCSS"],
+      "this site is heavy on css effect like parallax and modern scroll animation expired by apple website",
+    key_techs: ["Next", "Axios", "TailwindCSS"],
   },
   {
     id: 4,
@@ -127,17 +125,6 @@ export const projects: IProject[] = [
       "Stripe",
     ],
   },
-  // {
-  //   id: 5,
-  //   name: "Travel Advisor Rapid API",
-  //   image_path: "/images/traveladvisor-api.png",
-  //   deployed_url: "https://dw-react-travel-api.netlify.app",
-  //   github_url: "https://github.com/DarrenWayn/travel-advisor-api",
-  //   category: ["react.js"],
-  //   description:
-  //     "This site have a Card that cover Restaurants, Hotel, and Attraction that used to look for the best of it in each countries and cities using Travel Advisor Rapid Api",
-  //   key_techs: ["React", "Axios", "Material UI", "Google Map & Weather API"],
-  // },
   {
     id: 5,
     name: "TodoList",
